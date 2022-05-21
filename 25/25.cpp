@@ -77,7 +77,7 @@ public:
 
         m_pSkyBox = new SkyBox(m_pGameCamera, m_persProjInfo);
 
-        if (!m_pSkyBox->Init("C:\\lw4\\25\\mod",
+        /*if (!m_pSkyBox->Init("C:\\lw4\\25\\mod",
             "C:\\lw4\\25\\mod\\sp3right.jpg",
             "C:\\lw4\\25\\mod\\sp3left.jpg",
             "C:\\lw4\\25\\mod\\sp3top.jpg",
@@ -85,17 +85,27 @@ public:
             "C:\\lw4\\25\\mod\\sp3front.jpg",
             "C:\\lw4\\25\\mod\\sp3back.jpg")) {
             return false;
-        }
+        }*/
 
         /*if (!m_pSkyBox->Init("C:\\lw4\\25\\mod",
             "C:\\lw4\\25\\mod\\catright.jpg",
             "C:\\lw4\\25\\mod\\catleft.jpg",
-            "C:\\lw4\\25\\mod\\white.jpg",
-            "C:\\lw4\\25\\mod\\white.jpg",
+            "C:\\lw4\\25\\mod\\whitetop.jpg",
+            "C:\\lw4\\25\\mod\\whitebot.jpg",
             "C:\\lw4\\25\\mod\\catfront.jpg",
             "C:\\lw4\\25\\mod\\catback.jpg")) {
             return false;
         }*/
+
+        if (!m_pSkyBox->Init("C:\\lw4\\25\\mod",
+            "C:\\lw4\\25\\mod\\c1right.jpg",
+            "C:\\lw4\\25\\mod\\c1left.jpg",
+            "C:\\lw4\\25\\mod\\whitebot.jpg",
+            "C:\\lw4\\25\\mod\\whitebot.jpg",
+            "C:\\lw4\\25\\mod\\c1front.jpg",
+            "C:\\lw4\\25\\mod\\c1back.jpg")) {
+            return false;
+        }
 
         return true;
     }
