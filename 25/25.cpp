@@ -87,6 +87,16 @@ public:
             return false;
         }
 
+        /*if (!m_pSkyBox->Init("C:\\lw4\\25\\mod",
+            "C:\\lw4\\25\\mod\\catright.jpg",
+            "C:\\lw4\\25\\mod\\catleft.jpg",
+            "C:\\lw4\\25\\mod\\white.jpg",
+            "C:\\lw4\\25\\mod\\white.jpg",
+            "C:\\lw4\\25\\mod\\catfront.jpg",
+            "C:\\lw4\\25\\mod\\catback.jpg")) {
+            return false;
+        }*/
+
         return true;
     }
 
